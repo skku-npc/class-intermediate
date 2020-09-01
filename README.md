@@ -1,3 +1,4 @@
+![main](/image/logo.jpg)
 # NPC 중급반
 NPC 중급반에 오신 걸 환영합니다! 🤗  
 
