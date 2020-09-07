@@ -126,18 +126,18 @@ __6. 회고하기__
 완전 탐색, 그리디, DP 등을 간단하게 접해볼 수 있는 문제들입니다.  
 가능한 지식 없이 풀 수 있는 문제들로 구성했으니 모두 풀어보길 권장합니다.  
 (참고: 매겨진 난이도는 절대적인 것이 아니니, 참고로만 보세요!)  
-[2217번: 로프](https://www.acmicpc.net/problem/2217) (Silver 4)  
-[11399번: ATM](https://www.acmicpc.net/problem/11399) (Silver 3)  
-[1931번: 회의실배정](https://www.acmicpc.net/problem/1931) (Silver 2)  
-[9461번: 파도반 수열](https://www.acmicpc.net/problem/9461) (Silver 3)  
-[14888번: 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) (Silver 1)  
-[1541번: 잃어버린 괄호](https://www.acmicpc.net/problem/1541) (Silver 2)  
-[1946번: 신입 사원](https://www.acmicpc.net/problem/1946) (Silver 1)  
+[2217번: 로프](https://www.acmicpc.net/problem/2217) (Silver 4) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/2217.cpp)  
+[11399번: ATM](https://www.acmicpc.net/problem/11399) (Silver 3) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/11399.cpp)  
+[1931번: 회의실배정](https://www.acmicpc.net/problem/1931) (Silver 2) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/1931.cpp)  
+[9461번: 파도반 수열](https://www.acmicpc.net/problem/9461) (Silver 3) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/9461.cpp)  
+[14888번: 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) (Silver 1) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/14888.cpp)  
+[1541번: 잃어버린 괄호](https://www.acmicpc.net/problem/1541) (Silver 2) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/1541.cpp)  
+[1946번: 신입 사원](https://www.acmicpc.net/problem/1946) (Silver 1) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/1946.cpp)  
 
 #### STL 복습
 큐와 스택을 복습해보는 문제입니다.  
-[2164번: 카드2](https://www.acmicpc.net/problem/2164) (Silver 4)  
-[1406번: 에디터](https://www.acmicpc.net/problem/1406) (Silver 3)  
+[2164번: 카드2](https://www.acmicpc.net/problem/2164) (Silver 4) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/2164.cpp)  
+[1406번: 에디터](https://www.acmicpc.net/problem/1406) (Silver 3) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/1406.cpp)  
 
 #### Challenge ⚡
 더 어려운 문제를 풀어보고 싶은 실력자 분들을 위한 문제입니다.  
