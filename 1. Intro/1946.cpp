@@ -33,6 +33,6 @@ int main() {
 ///// 풀이: 그리디 알고리즘 /////
 // 서류심사(v[i].first)를 기준으로 정렬 후,
 // 0 <= j < i인 모든 j에 대해 v[i].first > v[j].first이므로
-// v[i].second < v[j].second이 성립하는지 확인한다.
+// v[i].second < v[j].second이 성립하는지 확인한다. (성립 시 ans++)
 // 이를 각 i에 대해 O(1)에 연산하기 위해 v[j].second의 최솟값을
 // min_rank로 저장해둔다.
