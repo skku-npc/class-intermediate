@@ -122,5 +122,5 @@ __6. 회고하기__
 위 내용들을 문제 풀이를 통해 적용해보겠습니다. 이번에 풀어볼 문제는 [백준 2003번](https://www.acmicpc.net/problem/2003)입니다.  
 
 ## 과제 🏓
-solved.ac 클래스 1 문제 풀이  
-(적어도 essential은 전부 풀 것 권장)
+solved.ac 클래스 2 essential 문제 풀이  
+(링크: https://solved.ac/class/2)
