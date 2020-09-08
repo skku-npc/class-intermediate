@@ -40,6 +40,6 @@ NPC 중급반에 오신 걸 환영합니다! 🤗
 일부 내용을 종만북([구종만, "알고리즘 문제 해결 전략", 인사이트(2012)](https://book.algospot.com/))에서 차용했습니다.  
 
 ## Contributors 😎
-최재민([@dotoleeoak](https://github.com/dotoleeoak)) - 교안 및 repo 전반 제작  
-김주영([@illuminoplanet](https://github.com/illuminoplanet)) - 문제 선별  
-이승재([@leesj10147](https://github.com/leesj10147)) - 문제 선별  
+최재민 [@dotoleeoak](https://github.com/dotoleeoak) - 교안 및 repo 전반 제작  
+김주영 [@illuminoplanet](https://github.com/illuminoplanet) - 문제 선별  
+이승재 [@leesj10147](https://github.com/leesj10147) - 문제 선별  
