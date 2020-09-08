@@ -116,7 +116,9 @@ __6. 회고하기__
 <img src="https://feel5ny.github.io/images/post_img/48/05.png" width=600>  
 <img src="https://feel5ny.github.io/images/post_img/48/04.png" width=600>  
 
-좀 더 자세한 내용은 다음 링크를 참고해주세요: https://feel5ny.github.io/2017/12/09/CS_01/
+좀 더 자세한 내용은 다음 링크를 참고해주세요: https://feel5ny.github.io/2017/12/09/CS_01/  
+
+---
 
 ## 연습 🎲
 위 내용들을 문제 풀이를 통해 적용해보겠습니다. 이번에 풀어볼 문제는 [백준 2003번](https://www.acmicpc.net/problem/2003)입니다.  
