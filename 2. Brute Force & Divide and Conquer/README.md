@@ -24,6 +24,8 @@ PS에서 "무식하게 푼다"라고 함은 가능한 경우의 수를 일일이
 분할 정복의 가장 큰 장점은 빠른 속도입니다. 많은 경우 <img src="https://latex.codecogs.com/svg.latex?O(log(n))"/> 또는 <img src="https://latex.codecogs.com/svg.latex?O(n%20log(n))"/> 의 시간복잡도를 갖습니다. 
 참고로 <img src="https://latex.codecogs.com/svg.latex?O(log(n))"/> 의 알고리즘은 <img src="https://latex.codecogs.com/svg.latex?O(1)"/> 에 가까운 실행 속도를 보입니다.  
 
+<img src="https://miro.medium.com/max/2544/1*yiyfZodqXNwMouC0-B0Wlg.png" width=400>
+
 문제 풀이를 통해 어떻게 분할 정복이 쓰이는지 알아보겠습니다.  
 
 ### 예제 🎲
