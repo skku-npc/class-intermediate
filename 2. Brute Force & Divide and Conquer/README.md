@@ -10,6 +10,8 @@ PS에서 "무식하게 푼다"라고 함은 가능한 경우의 수를 일일이
 바로 문제 풀이를 통해 알아보겠습니다.  
 
 ### 예제 🎲
+18111번: 마인크래프트 ([문제](https://www.acmicpc.net/problem/18111), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/18111.cpp))  
+
 ---  
 
 ## 백트래킹 🚩
@@ -39,11 +41,26 @@ PS에서 "무식하게 푼다"라고 함은 가능한 경우의 수를 일일이
 문제 풀이를 통해 어떻게 분할 정복이 쓰이는지 알아보겠습니다.  
 
 ### 예제 🎲
+2630번: 색종이 만들기 ([문제](https://www.acmicpc.net/problem/2630), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/2630.cpp))
 
-
----
+---  
 
 ## 연습 🏓
 #### 완전 탐색
+1038번: 감소하는 수 ([문제](https://www.acmicpc.net/problem/1038), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/1038.cpp))  
+1107번: 리모컨 ([문제](https://www.acmicpc.net/problem/1107), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/1107.cpp))  
+14658번: 하늘에서 별똥별이 빗발친다 ([문제](https://www.acmicpc.net/problem/14658), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/14658.cpp))  
+
+#### 백트래킹
+1182번: 부분수열의 합 ([문제](https://www.acmicpc.net/problem/1182), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/1182.cpp))  
+9663번: N-Queen ([문제](https://www.acmicpc.net/problem/9663), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/9663.cpp))  
+(참고) "N과 M" 시리즈 - [문제집](https://www.acmicpc.net/workbook/view/2052)
+
 #### 분할 정복
+1992번: 쿼드트리 ([문제](https://www.acmicpc.net/problem/1992), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/1992.cpp))  
+1074번: Z ([문제](https://www.acmicpc.net/problem/1074), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/1074.cpp))  
+
 #### Challenge ⚡
+14601번: 샤워실 바닥 깔기 (Large) ([문제](https://www.acmicpc.net/problem/14601))  
+1725번: 히스토그램 ([문제](https://www.acmicpc.net/problem/1725))  
+16909번: 카드 구매하기 3 ([문제](https://www.acmicpc.net/problem/16909))  
