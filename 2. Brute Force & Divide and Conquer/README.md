@@ -66,5 +66,5 @@ PS에서 "무식하게 푼다"라고 함은 가능한 경우의 수를 일일이
 
 #### Challenge ⚡
 14601번: 샤워실 바닥 깔기 (Large) ([문제](https://www.acmicpc.net/problem/14601))  
-1725번: 히스토그램 ([문제](https://www.acmicpc.net/problem/1725))  
+1725번: 히스토그램 ([문제](https://www.acmicpc.net/problem/1725), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/1725.cpp))  
 16909번: 카드 구매하기 3 ([문제](https://www.acmicpc.net/problem/16909))  
