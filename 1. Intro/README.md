@@ -147,5 +147,5 @@ https://www.acmicpc.net/group/469
 
 #### Challenge ⚡
 더 어려운 문제를 풀어보고 싶은 실력자 분들을 위한 문제입니다.  
-[3015번: 오아시스 재결합](https://www.acmicpc.net/problem/3015) (Gold 1)  
+[3015번: 오아시스 재결합](https://www.acmicpc.net/problem/3015) (Gold 1) - [풀이](https://github.com/skku-npc/class-intermediate/blob/master/1.%20Intro/3015.cpp)  
 [18266번: Meetings](https://www.acmicpc.net/problem/18266) (Platinum 4)  
