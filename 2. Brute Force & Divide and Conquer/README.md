@@ -10,9 +10,19 @@ PS에서 "무식하게 푼다"라고 함은 가능한 경우의 수를 일일이
 바로 문제 풀이를 통해 알아보겠습니다.  
 
 ### 예제 🎲
+---  
 
+## 백트래킹 🚩
+완전 탐색 문제에서 흔하게 같이 나오는 개념이 백트래킹입니다. [위키 백과](https://ko.wikipedia.org/wiki/%ED%87%B4%EA%B0%81%EA%B2%80%EC%83%89)의 설명에 따르면 모든 조합을 시도하되, 탐색 중에 오답을 만나면 탐색을 중단하고 바로 이전 단계로 돌아가 다른 조합을 시도하는 것입니다. 깊이 우선 탐색(DFS)과 비슷하지만, 탐색을 끝까지 진행하지 않는다는 점에서 더 좋은 성능을 보여줍니다.  
 
---- 
+말로 설명해도 이해가 어려울듯 하니, 바로 예제 풀이로 알아보겠습니다.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Depthfirst.png/375px-Depthfirst.png" width=400>
+
+### 예제 🎲
+6987번: 월드컵 ([문제](https://www.acmicpc.net/problem/6987), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/6987.cpp))  
+
+---  
 
 ## 분할 정복 (divide-and-conquer) ✂
 분할 정복은 가장 유명한 알고리즘 디자인 패러다임입니다. 분할 정복 페러다임을 차용한 알고리즘들이 많기에, 잘 짚고 넘어가는 것이 좋습니다. 분할 정복(divide-and-conquer)이란 문제를 비슷한 크기를 가진 부분 문제들로 나누는 것입니다. 분할 정복을 사용하는 알고리즘들은 대개 세 가지의 구성 요소를 가지고 있습니다.  
