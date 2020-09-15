@@ -16,10 +16,11 @@ int largest(int left, int right) {
 
     while (left_idx > left || right_idx < right) {
         if (left_idx > left &&
-            (right_idx == right || v[left_idx - 1] > v[right_idx + 1]))
+            (right_idx == right || v[left_idx - 1] > v[right_idx + 1])) {
             height = min(height, v[--left_idx]);
-        else
+        } else {
             height = min(height, v[++right_idx]);
+        }
         ret = max(ret, height * (right_idx - left_idx + 1));
     }
 
