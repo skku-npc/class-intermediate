@@ -30,4 +30,4 @@
 
 #### Challenge ⚡
 1071번: 소트 ([문제](https://www.acmicpc.net/problem/1071), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/1071.cpp))  
-2873번: 보석 도둑 ([문제](https://www.acmicpc.net/problem/2873), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/2873.cpp))  
+2873번: 롤러코스터 ([문제](https://www.acmicpc.net/problem/2873), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/2873.cpp))  
