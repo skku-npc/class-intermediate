@@ -13,8 +13,21 @@
 
 종만북에서 '탐욕법은 가장 직관적인 알고리즘 설계 파라다임 중 하나'라고 언급합니다. 저도 이에 동의합니다. 하지만 이에 동시에 많은 경우에 최적해를 구하지 못하는 알고리즘이기도 합니다. 섣불리 직관에 의존해 탐욕법으로 코드를 짰다가는 WA를 받기 쉽습니다. 그래서 알고리즘의 정당성을 증명하는 과정이 매우 중요한 알고리즘입니다.  
 
+또한, 직관에 어느 정도 의존하다보니 문제 난이도의 격차가 매우 큰 것으로 유명합니다. ~~(흔히 머리빨이라고도...)~~ 이러한 직관을 잘 얻기 위해 제가 강조하고 싶은 것은 충분한 <b>경험</b>과, 꾸준한 <b>관찰</b>입니다. 여러 시행착오를 겪어보며 문제에서 유추해낼 수 있는 조건, 특징 등을 잘 헤아리다 보면 직관을 얻어내는 과정도 점점 쉬워질 것입니다.  
+
 이제 문제 풀이를 통해 탐욕법을 적용하는 과정을 알아보겠습니다.  
 
 ## 예제 🎲
+1080번: 행렬 ([문제](https://www.acmicpc.net/problem/1080), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/1080.cpp))  
+1339번: 단어 수학 ([문제](https://www.acmicpc.net/problem/1339), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/1339.cpp))  
 
 ## 연습 🏓
+11047번: 동전 0 ([문제](https://www.acmicpc.net/problem/11047), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/11047.cpp))  
+1138번: 한 줄로 서기 ([문제](https://www.acmicpc.net/problem/1138), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/1138.cpp))  
+1744번: 수 묶기 ([문제](https://www.acmicpc.net/problem/1744), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/1744.cpp))  
+2437번: 저울 ([문제](https://www.acmicpc.net/problem/2437), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/2437.cpp))  
+1202번: 보석 도둑 ([문제](https://www.acmicpc.net/problem/1202), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/1202.cpp))  
+
+#### Challenge ⚡
+1071번: 소트 ([문제](https://www.acmicpc.net/problem/1071), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/1071.cpp))  
+2873번: 롤러코스터 ([문제](https://www.acmicpc.net/problem/2873), [해설](https://github.com/skku-npc/class-intermediate/blob/master/3.%20Greedy%20Algorithm/2873.cpp))  
