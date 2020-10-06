@@ -17,6 +17,7 @@
 
 ## 예제 🎲
 11053번: 가장 긴 증가하는 부분 순열 ([문제](https://www.acmicpc.net/problem/11053), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/11053.cpp))  
+2156번: 포도주 시식 ([문제](https://www.acmicpc.net/problem/2156), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/2156.cpp))  
 
 ## 연습 🏓
 2579번: 계단 오르기 ([문제](https://www.acmicpc.net/problem/2579), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/2579.cpp))  
