@@ -45,6 +45,8 @@ while (lo < hi) {
 ### 참고
 쓸 수 있는 경우가 많진 않지만, C++에도 내장 함수로 이분 탐색이 구현되어 있습니다. `binary_search()`와 `lower_bound()`, `upper_bound()`가 그것입니다. `binary_search()`는 해당 값이 있는지 없는지를 `boolean`으로 return해주고, `lower_bound()`와 `upper_bound()`는 각각 주어진 값보다 크거나 큰, 주어진 값보다 큰 값의 index를 return합니다. `lower_bound()`, `upper_bound()`는 꽤 자주, 그리고 상당히 유용하게 쓰이는 함수이니 잘 알아두시길 바랍니다.  
 
+---
+
 ## 예제 🎲
 2805번: 나무 자르기 ([문제](https://www.acmicpc.net/problem/2805), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/2805.cpp))  
 2110번: 공유기 설치 ([문제](https://www.acmicpc.net/problem/2110), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/2110.cpp))  
