@@ -16,15 +16,16 @@
 이번 주 연습 문제는 이 두 가지, <b>초깃값과 점화식</b>에 초점을 맞출 수 있도록 선별했습니다.
 
 ## 예제 🎲
-11053번: 가장 긴 증가하는 부분 순열 ([문제](https://www.acmicpc.net/problem/11053), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/11053.cpp))  
+11053번: 가장 긴 증가하는 부분 순열 ([문제](https://www.acmicpc.net/problem/11053), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/11053.cpp))  
+2156번: 포도주 시식 ([문제](https://www.acmicpc.net/problem/2156), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/2156.cpp))  
 
 ## 연습 🏓
-2579번: 계단 오르기 ([문제](https://www.acmicpc.net/problem/2579), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/2579.cpp))  
-1149번: RGB거리 ([문제](https://www.acmicpc.net/problem/1149), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/1149.cpp))  
-9251번: LCS ([문제](https://www.acmicpc.net/problem/9251), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/9251.cpp))  
-12865번: 평범한 배낭 ([문제](https://www.acmicpc.net/problem/12865), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/12865.cpp))  
-11066번: 파일 합치기 ([문제](https://www.acmicpc.net/problem/11066), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/11066.cpp))  
+2579번: 계단 오르기 ([문제](https://www.acmicpc.net/problem/2579), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/2579.cpp))  
+1149번: RGB거리 ([문제](https://www.acmicpc.net/problem/1149), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/1149.cpp))  
+9251번: LCS ([문제](https://www.acmicpc.net/problem/9251), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/9251.cpp))  
+12865번: 평범한 배낭 ([문제](https://www.acmicpc.net/problem/12865), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/12865.cpp))  
+11066번: 파일 합치기 ([문제](https://www.acmicpc.net/problem/11066), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/11066.cpp))  
 
 #### Challenge ⚡
-5626번: 제단 ([문제](https://www.acmicpc.net/problem/5626), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/5626.cpp))  
-13330번: 유사 팰린드롬 ([문제](https://www.acmicpc.net/problem/13330), [해설](https://github.com/skku-npc/class-intermediate/blob/master/2.%20Brute%20Force%20%26%20Divide%20and%20Conquer/13330.cpp))  
+5626번: 제단 ([문제](https://www.acmicpc.net/problem/5626), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/5626.cpp))  
+13330번: 유사 팰린드롬 ([문제](https://www.acmicpc.net/problem/13330), [해설](https://github.com/skku-npc/class-intermediate/blob/master/4.%20Dynamic%20Programming/13330.cpp))  
