@@ -35,8 +35,10 @@ while (lo < hi) {
     int mid = (lo + hi) / 2;
     if (key < A[mid]) {  // 이 부분에 문제에 따른 조건(기준)이 들어감
         hi = mid - 1;
+    } else if (key > A[mid]) {
+        lo = mid + 1;
     } else {
-        lo = mid;
+        return mid;
     }
 }
 ```
