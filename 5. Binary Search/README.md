@@ -43,7 +43,7 @@ while (lo < hi) {
 이는 하나의 예시일 뿐이고, `lo`와 `hi`를 중심으로 `while`문을 돈다는 점을 알아두면 되겠습니다.  
 
 ### 참고
-쓸 수 있는 경우가 많진 않지만, C++에도 내장 함수로 이분 탐색이 구현되어 있습니다. `binary_search()`와 `lower_bound()`, `upper_bound()`가 그것입니다. `binary_search()`는 해당 값이 있는지 없는지를 `boolean`으로 return해주고, `lower_bound()`와 `upper_bound()`는 각각 주어진 값보다 크거나 큰, 주어진 값보다 큰 값의 index를 return합니다. `lower_bound()`, `upper_bound()`는 꽤 자주, 그리고 상당히 유용하게 쓰이는 함수이니 잘 알아두시길 바랍니다.  
+쓸 수 있는 경우가 많진 않지만, C++에도 내장 함수로 이분 탐색이 구현되어 있습니다. `binary_search()`와 `lower_bound()`, `upper_bound()`가 그것입니다. `binary_search()`는 해당 값이 있는지 없는지를 `boolean`으로 return해주고, `lower_bound()`와 `upper_bound()`는 각각 주어진 값보다 크거나 큰, 주어진 값보다 큰 값의 index를 return합니다. `lower_bound()`, `upper_bound()`는 꽤 자주, 그리고 상당히 유용하게 쓰이는 함수이니 잘 알아두시길 바랍니다. (추가 설명: [링크](https://breakcoding.tistory.com/188))  
 
 ---
 
