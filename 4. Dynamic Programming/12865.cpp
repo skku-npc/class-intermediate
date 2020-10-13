@@ -1,25 +1,23 @@
-#include <cstdio>
+#include <bits/stdc++.h>
 using namespace std;
-int max(int a, int b){return a>b?a:b;}
-int min(int a, int b){return a>b?b:a;}
-int n, k, w, v;
-int dp[2][100'001];
-int main()
-{
-    scanf("%d%d", &n, &k);
 
-    int ans = 0;
-    for (int i=1;i<=n;++i)
-    {
-        scanf("%d%d", &w, &v);
-        for (int j=k-w;j>=0;--j)
-            dp[i&1][j+w] = max(dp[(i-1)&1][j+w], dp[(i-1)&1][j]+v);
-        for (int j = min(w-1, k); j >= 0; --j)
-            dp[i&1][j] = dp[(i-1)&1][j];
-    }
-    for (int j = 0; j <= k;++j) ans = max(ans, dp[n&1][j]);
-    printf("%d\n", ans);
-    return 0;
+int n, k, ans;
+int dp[100005];
+
+int main() {
+	ios::sync_with_stdio(0), cin.tie(0);
+	cin >> n >> k;
+	for (int i = 0; i < n; i++) {
+		int w, v;
+		cin >> w >> v;
+		for (int j = k - w; j >= 0; j--) {
+			dp[j + w] = max(dp[j + w], dp[j] + v);
+		}
+	}
+	for (int i = 0; i <= k; i++) {
+		ans = max(ans, dp[i]);
+	}
+	cout << ans << endl;
 }
 /*
  dp[i][j] = 1~i 물건들을 고려했고, 무게가 j일 때 최대 가치
@@ -29,9 +27,6 @@ int main()
  이렇게 2가지로 나눌 수 있다.
  그래서 dp[i][j + w] = max(dp[i-1][j + w], dp[i-1][j] + v) 이다.
 
- 이때 각 물건을 최대 1개씩만 배낭에 넣을 수 있다.
- 즉, dp[i][j + w] 를 계산하는 시점에서 dp[i][j]가 이미 계산이 되어 있다면,(즉, i번째 물건이 이미 고려된 상태라면) 동일한 물건이 2번 들어가게 될 수 있다.
- 그래서 for문을 감소하도록 돌려줘야 한다.
  //
  dp[i][j]를 구할 때, 항상 dp[i-1] 만을 사용함으로 dp[2][100'001]로 구하는게 가능하다.
  dp[i%2], dp[(i-1)%2]로 인덱스를 계산하면 편리하게 구현 할 수 있다.
