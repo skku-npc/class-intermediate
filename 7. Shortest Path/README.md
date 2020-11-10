@@ -86,6 +86,6 @@ for (int k = 1; k <= n; k++) {
 5719번: 거의 최단 경로 ([문제](https://www.acmicpc.net/problem/5719), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/5719.cpp))  
 11562번: 백양로 브레이크 ([문제](https://www.acmicpc.net/problem/11562), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/11562.cpp))  
 
-## Challenge
+#### Challenge ⚡
 2958번: 도로 네트워크 ([문제](https://www.acmicpc.net/problem/2958), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/2958.cpp))  
 16358번: Cosmetic Survey ([문제](https://www.acmicpc.net/problem/16358), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/16358.cpp))  
