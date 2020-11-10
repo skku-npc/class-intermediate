@@ -43,3 +43,35 @@ while (방문하지 않은 정점이 있음) {
 ### 예제 🎲
 1753번: 최단 경로 ([문제](https://www.acmicpc.net/problem/1753), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/1753.cpp))  
 1504번: 특정한 최단 경로 ([문제](https://www.acmicpc.net/problem/1504), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/1504x.cpp))  
+
+
+## 플로이드-와샬 알고리즘(Floyd-Warshall Algorithm) 📍
+APSP 문제를 해결하는 알고리즘은 플로이드-와샬 알고리즘이 대표적입니다.  
+플로이드-와샬 알고리즘의 특징은 다음과 같습니다.  
+
+- 다이내믹 프로그래밍(DP)을 기반으로 한 알고리즘이다.
+- 구현이 ~~매우~~ 쉽다.
+
+플로이드-와샬은 3차원 dp를 기반으로 하며, 점화식은 다음과 같습니다.  
+
+- <img src="https://latex.codecogs.com/svg.latex?D(i,j,k)"/> = 1~k번 정점만 경유하여 i번 정점에서 j번 정점까지의 최단거리
+- <img src="https://latex.codecogs.com/svg.latex?D(i,j,k)=min(D(i,j,k),D(i,k,k-1)+D(k,j,k-1))"/>
+
+즉, k를 1씩 증가시키며 순회하는 형태로 구현합니다.  
+이때, 내가 k에 대해 계산하고 있을 때, k-1 이전 단계의 값은 필요가 없으므로 배열은 2차원으로 구현할 수 있습니다.  
+따라서 전체 구현은 다음과 같습니다.
+
+```cpp
+for (int k = 1; k <= n; k++) {
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++) {
+            D[i][j] = min(D[i][j], D[i][k] + D[k][j]);
+        }
+    }
+}
+```
+
+시간복잡도는 자명하게 <img src="https://latex.codecogs.com/svg.latex?O(N^3)"/>입니다.  
+
+### 예제 🎲
+11403번: 경로 찾기 ([문제](https://www.acmicpc.net/problem/11403), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/11403.cpp))  
