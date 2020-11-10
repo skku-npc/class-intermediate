@@ -44,6 +44,7 @@ while (방문하지 않은 정점이 있음) {
 1753번: 최단 경로 ([문제](https://www.acmicpc.net/problem/1753), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/1753.cpp))  
 1504번: 특정한 최단 경로 ([문제](https://www.acmicpc.net/problem/1504), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/1504x.cpp))  
 
+---
 
 ## 플로이드-와샬 알고리즘(Floyd-Warshall Algorithm) 📍
 APSP 문제를 해결하는 알고리즘은 플로이드-와샬 알고리즘이 대표적입니다.  
@@ -75,3 +76,16 @@ for (int k = 1; k <= n; k++) {
 
 ### 예제 🎲
 11403번: 경로 찾기 ([문제](https://www.acmicpc.net/problem/11403), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/11403.cpp))  
+
+---
+
+## 연습 🏓
+20046번: Road Reconstruction ([문제](https://www.acmicpc.net/problem/20046), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/20046.cpp))  
+1238번: 파티 ([문제](https://www.acmicpc.net/problem/1238), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/1238.cpp))  
+1261번: 알고스팟 ([문제](https://www.acmicpc.net/problem/1261), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/1261.cpp))  
+5719번: 거의 최단 경로 ([문제](https://www.acmicpc.net/problem/5719), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/5719.cpp))  
+11562번: 백양로 브레이크 ([문제](https://www.acmicpc.net/problem/11562), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/11562.cpp))  
+
+## Challenge
+2958번: 도로 네트워크 ([문제](https://www.acmicpc.net/problem/2958), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/2958.cpp))  
+16358번: Cosmetic Survey ([문제](https://www.acmicpc.net/problem/16358), [해설](https://github.com/skku-npc/class-intermediate/blob/master/7.%20Shortest%20Path/16358.cpp))  
