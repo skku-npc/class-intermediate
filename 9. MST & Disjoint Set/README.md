@@ -6,7 +6,7 @@
 
 <b>스패닝 트리(Spanning Tree)</b>란, 무향 연결 그래프의 모든 정점을 포함하는 tree 형태의 subgraph입니다. 즉, 스패닝 트리에는 사이클이 존재하지 않아야 하며, 두 정점을 잇는 경로는 하나만 존재해야 합니다. 그래프에 스패닝 트리는 여러 개가 존재할 수 있습니다. 아래 그림을 스패닝 트리의 예시로 보면 되겠습니다.  
 
-![Spanning Tree](/image/9차시/spanning_tree.png)  
+<p align="center"><img src="https://raw.githubusercontent.com/skku-npc/class-intermediate/user/Jaemin/image/9%EC%B0%A8%EC%8B%9C/spanning_tree.png" width=500></p>  
 
 <b>최소 스패닝 트리(Minimum Spanning Tree, MST)</b>는 간선의 weight가 주어진 그래프의 스패닝 트리들 중 weight의 합이 가장 작은 그래프입니다. 즉, 스패닝 트리 중 가장 '저렴한' 것을 말합니다.  
 
@@ -31,11 +31,11 @@
 
 예를 들어 원소 1과 원소 2를 union한다고 하면, 두 원소는 하나의 집합이 되고, root는 둘 중 임의의 값이 됩니다. 여기서는 1이 root가 됐다고 가정합시다.  
 
-![](/image/9차시/disjoint_set_1.png)  
+<p align="center"><img src="https://raw.githubusercontent.com/skku-npc/class-intermediate/user/Jaemin/image/9%EC%B0%A8%EC%8B%9C/disjoint_set_1.png" width=350></p>  
 
-이 때 원소 3과 4로 이루어진, 3을 root로 갖는 집합과 union한다고 합시다. 그러면 다음과 같이 3의 parent를 1로 만들면, 모든 원소의 root가 1이 되면서 하나의 집합이 됩니다.
+이 때 원소 3과 4로 이루어진, 3을 root로 갖는 집합과 union한다고 합시다. 그러면 다음과 같이 3의 parent를 1로 만들면, 모든 원소의 root가 1이 되면서 하나의 집합이 됩니다.  
 
-![](/image/9차시/disjoint_set_2.png)  
+<p align="center"><img src="https://raw.githubusercontent.com/skku-npc/class-intermediate/user/Jaemin/image/9%EC%B0%A8%EC%8B%9C/disjoint_set_2.png" width=350></p>  
 
 이를 구현하는 것은 `parent` 배열을 만들어 관리하면 어렵지 않습니다.  
 처음에는 모든 원소의 `parent` 값을 자기 자신으로 지정하고, union 연산과 find 연산마다 값을 update하면 됩니다.  
